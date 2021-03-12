@@ -8,10 +8,9 @@ void main() {
     title: "Frases do Dia",
     //Container Principal
     //home: Container(color: Colors.white,),
-    home: Column(
-      children: <Widget>[
-        
-      ],
-    ),
+    home: Column(children: <Widget>[
+      Text("Adilson "),
+      Text("Chameia")
+      ],),
   ));
 }
