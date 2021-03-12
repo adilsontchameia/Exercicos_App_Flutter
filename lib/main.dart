@@ -13,15 +13,10 @@ void main() {
       color: Colors.white,
       child: Column(
         children: <Widget>[
-          Text(
-            "Adilson Kamati Chameia, Mobile Developer",
-            style: TextStyle(
-              fontSize: 35,
-              fontStyle: FontStyle.normal,
-              fontWeight: FontWeight.bold,
-              color: Colors.blue
-            ),
-            ),
+          TextButton(
+            onPressed: null, 
+            child: Text("Button")
+            )
         ],
       ),),
   ));
