@@ -13,15 +13,21 @@ void main() {
     //Container Principal
     home: Container(
       //color: Colors.white,
-      padding: EdgeInsets.fromLTRB(50, 50, 0, 0),
+      padding: EdgeInsets.fromLTRB(0, 0, 0, 0), //Espacamento interno
+      margin: EdgeInsets.all(20),
+      //margin: EdgeInsets.fromLTRB(10, 10, 0, 0), //Espacamento externo
       decoration: BoxDecoration(
         border: Border.all(width: 3, color: Colors.white)
       ),
       child: Column(
         children: <Widget>[
-          Text(
+          /*Text(
             "Adilson Kamati Chameia, mobile developer from Angola, Menongue",
-          textAlign: TextAlign.justify,)
+          textAlign: TextAlign.justify,) */
+          Text("t1"),
+          Padding(padding: EdgeInsets.all(10),
+          child: Text("Chameia"),),
+          Text("t1")
         ],
       ),
     ),
