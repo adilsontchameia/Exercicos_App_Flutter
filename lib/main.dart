@@ -8,9 +8,13 @@ void main() {
     title: "Frases do Dia",
     //Container Principal
     //home: Container(color: Colors.white,),
-    home: Column(children: <Widget>[
-      Text("Adilson "),
-      Text("Chameia")
+    home: Row(children: <Widget>[
+      Text(
+        "Adilson Kamati Chameia, Graphica Developer",
+        style: TextStyle(
+          
+          fontSize: 30),
+        )
       ],),
   ));
 }
