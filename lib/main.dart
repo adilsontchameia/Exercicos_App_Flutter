@@ -5,20 +5,31 @@ import 'package:flutter/material.dart';
 //Children - Filhos, varios conteudos.
 void main() {
 //Funcao para Executar o app
+
   runApp(MaterialApp(
-    //Remover o simbolo de debug
     debugShowCheckedModeBanner: false,
-    //Titulo
-    title: "Frases do Dia",
     //Container Principal
-    home: Container(
-      //color: Colors.white,
-      margin: EdgeInsets.only(top: 40), //Espacamento interno
-      decoration:
-          BoxDecoration(border: Border.all(width: 3, color: Colors.white)),
-      child: Image.asset(
-        "images/mesa.jpg"
+    home: Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.green,
+        title: Text("Nome do Aplicativo"),
+      ),
+      body: Padding(
+        padding: EdgeInsets.all(20),
+        child: Text("Conteudo Principal"),
+      ),
+      bottomNavigationBar: BottomAppBar(
+        color: Colors.lightGreen,
+        child: Padding(
+          padding: EdgeInsets.all(20),
+          child: Row(
+            children: <Widget>[
+              Text("Bottom Bar"),
+              Text("Bottom Bar"),
+            ],
+          ),
         ),
+      ),
     ),
   ));
 }
