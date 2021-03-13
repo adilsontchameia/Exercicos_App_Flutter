@@ -46,7 +46,7 @@ class _HomeStatefulState extends State<HomeStateful> {
               color: Colors.blue,
               onPressed: () {
                 setState(() {
-                  _texto = "Exercicio Flutter";
+                  _texto = "Exercicio Flutter Stateless";
                 });
               },
               child: Text(
