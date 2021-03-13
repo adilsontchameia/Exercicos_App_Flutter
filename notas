@@ -1,0 +1,3 @@
+Stateless - Widgets que nao podem ser alterados(constantes).
+Stateful - Widgets que podem ser alterados (variaveis).
+
