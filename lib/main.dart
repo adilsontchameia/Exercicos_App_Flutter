@@ -16,7 +16,8 @@ void main() {
       margin: EdgeInsets.only(top: 40), //Espacamento interno
       decoration:
           BoxDecoration(border: Border.all(width: 3, color: Colors.white)),
-      //child: ,
+      child: Image.asset(
+        "images/mesa.jpg"),
     ),
   ));
 }
