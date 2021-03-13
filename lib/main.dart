@@ -17,7 +17,8 @@ void main() {
       decoration:
           BoxDecoration(border: Border.all(width: 3, color: Colors.white)),
       child: Image.asset(
-        "images/mesa.jpg"),
+        "images/mesa.jpg"
+        ),
     ),
   ));
 }
